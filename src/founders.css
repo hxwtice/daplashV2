@@ -1,0 +1,111 @@
+.ourfounders
+{
+    margin-top: 100px;
+    border-radius: 8px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 70px;
+}
+
+.founder{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.founder-pic
+{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.founder-title
+{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Montserrat;
+    font-size: 40px;
+    color: #000F5F;
+    padding-top: 25px;
+    font-weight: 600;
+
+}
+
+.founder-content{
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 200px;
+    font-weight: 400;
+}
+
+.founder-name
+{
+    color: #09003D;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+
+.founder-job
+{
+    color: #606060;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 200;
+    padding-left: 70px;
+    padding-top: 7px;
+
+}
+
+.founder-bio
+{
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .ourfounders{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .founder-content
+    {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 620px)
+{
+    .ourfounders{
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 5px;
+    }
+
+    .founder
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .founder-content{
+        padding-top: 35px;
+    }
+
+    .founder-content, .founder-job, .founder-name
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+    }
+}

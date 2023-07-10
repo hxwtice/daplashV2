@@ -1,0 +1,52 @@
+.vision
+{
+    padding-top: 100px;
+    margin-left: 420px;
+    margin-right: 420px;
+}
+
+.border{
+    border-bottom: 1px solid black;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vision-text
+{
+    padding-bottom: 50px;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 20px;
+}
+
+.vision-text-bold
+{
+    padding-bottom: 20px;
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.startup-name{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1100px)
+{
+    .vision{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 620px)
+{
+    .vision{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
