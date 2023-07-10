@@ -6,13 +6,7 @@
     margin-left: 300px;
     margin-right: 300px;
     display: flex;
-    justify-content: space-between;
-}
-
-.border-left
-{
-    border-right: 1px solid black;
-    width: 5px;
+    justify-content: space-evenly;
 }
 
 .greet
@@ -23,19 +17,8 @@
     padding-top: 100px;
     padding-left: 100px;
     position: relative;
-    padding-right: 150px;
 
 }
-
-.greet:after {
-    content: "";
-    background: black;
-    position: absolute;
-    bottom: 70px;
-    right: 0;
-    height: 50%;
-    width: 1px;
-  }
 
 .gform{
     display: flex;
@@ -127,5 +110,13 @@
     .min{
         padding-bottom: 15px;
         padding-top: 5px;
+    }
+}
+
+@media screen and (min-width: 2000px)
+{
+    .form{
+        margin-left: 700px;
+        margin-right: 700px;
     }
 }
