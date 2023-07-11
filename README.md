@@ -1,2 +1,2 @@
 # daplashV2
-Second version of the daplash repo (mobile responsive)
+Responsive Daplash website made using reactjs and css.
