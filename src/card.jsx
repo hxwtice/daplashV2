@@ -11,7 +11,10 @@ export function Card()
             </div>
             <div className="writer">George Bernard Shaw</div>
             <div className="writer-1">playwright, critic</div>
-            <div className="btn"><button className="btn-1">What do we do?</button></div>
+            <div className="btn"><button className="btn-1" onClick={() => {
+                    const anchor = document.querySelector('#offerings')
+                    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                }}>What do we do?</button></div>
             </div>
             <div className="image"><img src={uncle} className="image-1"/></div>
         </div>

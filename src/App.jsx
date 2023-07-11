@@ -6,6 +6,7 @@ import { Form } from "./gform"
 import { AboutUs } from "./aboutus"
 import { Footer } from "./footer"
 import { Founders } from "./founders"
+import Slider from "./slider"
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
     <Landing></Landing>
     <Card></Card>
     <Vision></Vision>
+    <Slider></Slider>
     <Form></Form>
     <AboutUs></AboutUs>
     <Founders></Founders>
