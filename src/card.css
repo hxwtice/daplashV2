@@ -12,10 +12,9 @@
 {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    font-weight: 600;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
     padding-top: 50px;
 }
 
@@ -25,6 +24,7 @@
     font-size: 15px;
     text-align: center;
     padding-top: 15px;
+    color: #636363;
 }
 
 .writer-1
@@ -32,6 +32,7 @@
     font-family: Montserrat;
     font-size: 15px;
     text-align: center;
+    color: #636363;
 }
 
 .btn{
@@ -45,9 +46,11 @@
     background-color: #E0E0E0;
     cursor: pointer;
     font-family: Montserrat;
-    font-weight: 600;
     padding-top: 15px;
+    color: #121212;
     padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-style: solid;
     border-color: #E0E0E0;
 }
@@ -64,27 +67,43 @@
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1230px)
 {
     .card{
         margin-left: 50px;
         margin-right: 50px;
     }
+
+    .quote{
+        padding-left:35px;
+        padding-right:35px;
+    }
 }
 
-@media screen and (max-width: 620px)
+@media screen and (max-width: 680px)
 {
     .card{
         margin-left: 15px;
         margin-right: 15px;
     }
+
+    .quote{
+        padding-left:15px;
+        padding-right:15px;
+    }
 }
 
-@media screen and (max-width: 520px)
+@media screen and (max-width: 600px)
 {
+
+    .btn-1
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     
     .quote{
-        padding-top: 30px;
+        padding-top: 10px;
         font-size: 15px;
     }
 

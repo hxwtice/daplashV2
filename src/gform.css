@@ -17,6 +17,7 @@
     padding-top: 100px;
     padding-left: 100px;
     position: relative;
+    color: #555;
 
 }
 
@@ -33,12 +34,15 @@
 {
     font-family: Montserrat;
     font-size: 18px;
+    color: #121212;
     padding: 10px 5px 10px 5px;
     border-radius: 8px;
     background-color: #E0E0E0;
     border-style: solid;
     border-color: #E0E0E0;
     cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
 
 }
 
@@ -64,6 +68,7 @@
     text-align: center;
     padding-bottom: 70px;
     padding-top: 10px;
+    color: #121212;
 }
 
 @media screen and (max-width: 1200px)
