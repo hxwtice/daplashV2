@@ -39,12 +39,15 @@
 {
     color: #006447;
 }
+.bold
+{
+    font-weight: 600;
+}
 
 .motto
 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
     padding-top: 20px;
     font-size: 20px;
     margin-left: 420px;

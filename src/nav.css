@@ -1,9 +1,10 @@
 .navbar
 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-size: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 175px;
     padding-top: 10px;
 }
 
@@ -20,4 +21,12 @@
 .nav-about:hover 
 {
     color: #9C0000 ;
+}
+
+@media screen and (max-width: 450px)
+{
+    .navbar
+    {
+        gap: 100px;
+    }
 }
