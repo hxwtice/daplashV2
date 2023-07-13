@@ -1,8 +1,8 @@
 .about-us
 {
     padding-top: 100px;
-    margin-left: 420px;
-    margin-right: 420px;
+    margin-left: 300px;
+    margin-right: 300px;
     font-family: Montserrat;
     text-align: center;
 }
@@ -12,6 +12,7 @@
     padding-bottom: 50px;
     font-size: 48px;
     color: #000F5F;
+    font-weight: 600;
 }
 
 .about-content-1, .about-content-2

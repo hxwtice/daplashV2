@@ -1,13 +1,14 @@
 .ourfounders
 {
-    margin-top: 100px;
-    border-radius: 55px;
-    border: 2px solid #2C395A;
+    
     display: flex;
     flex-direction: column;
-    margin-left: 250px;
-    margin-right: 250px;
-    padding-left: 70px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.16);
+    padding-top: 80px;
 }
 
 .founder{
@@ -18,8 +19,8 @@
 
 .founder-pic
 {
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
     border-radius: 50%;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     
@@ -29,20 +30,21 @@
 {
     text-align: center;
     padding-bottom: 50px;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 40px;
     color: #000F5F;
     padding-top: 25px;
     font-weight: 600;
+    margin-top: 100px;
 
 }
 
 .founder-content{
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 14px;
     text-align: left;
-    padding-left: 70px;
-    padding-right: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-weight: 400;
 }
 
@@ -50,45 +52,58 @@
 {
     color: #09003D;
     font-family: Montserrat;
-    font-size: 20px;
-    padding-left: 70px;
-    padding-top: 15px;
+    font-size: 14px;
+    padding-left: 50px;
+    padding-top: 10px;
 }
 
 .founder-job
 {
     color: #606060;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 11px;
     font-weight: 200;
-    padding-left: 70px;
-    padding-top: 7px;
+    padding-left: 50px;
+    padding-top: 5px;
 
 }
 
 .founder-bio
 {
-    padding-bottom: 100px;
+    padding-bottom: 75px;
 }
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1330px)
 {
     .ourfounders{
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
 
     .founder-content
     {
-        padding-right: 20px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .ourfounders{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .founder-content
+    {
+        padding-right: 50px;
     }
 }
 
 @media screen and (max-width: 620px)
 {
     .ourfounders{
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
         padding-left: 5px;
     }
 
