@@ -13,4 +13,4 @@ Daplash, it's an ideology of supreme marketing by the medium of narrative-based 
 Daplash consists of experienced and talented digital marketers, UI/UX designers, and editors who are passionate about helping businesses succeed online.
 We are a collaborative team, and we are always willing to share our knowledge and expertise.
 
-Go to : [https.daplash.com](https://daplash.com/)https://daplash.com/
+Go to : https://daplash.com/
