@@ -1,5 +1,5 @@
-# daplashV2
-Responsive website made for Daplash using reactjs and css.
+# daplash
+Responsive website made for Daplash using ReactJS and CSS.
 
 What is Daplash?
 We write stories for small businesses, startups and Individuals. We help them thrive.
